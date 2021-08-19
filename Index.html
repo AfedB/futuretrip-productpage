@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="landing-page">
+            <img src="/ship2.png" id="ship2" alt="">
+
+            <h3 id="voyage">-Above us only sky-</h3>
+            <p id="choix">Choose your ship<br><span>&#8595;</span></p>
+        </div>
+        <div class="option">
+            <div class="block-text">
+                <h3>We'll take you there</h3>
+                <p>The fastest way</p>
+            </div>
+            <div class="img-container"data-aos="zoom-in" > 
+                <img src="/ship.png" id="ship" alt="">
+                <img src="/ship2.png" id="ship4" alt="">
+                <img src="/ship3.png" id="ship3" alt="">
+            </div>
+        </div>
+        <div class="informations">
+            <div class="block-text2">
+                <h3>Making every journey better</h3>
+                <p>World friendly</p>
+            </div>
+            <div class="selection1">
+                <h3>Choose your ship</h3>
+
+                <label for="ship">Ship:</label>
+                <select name="shiplist" id="ship" form="shipform">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+
+        </div>
+            <div class="selection2">
+            <h3>Choose your destination</h3>
+
+            <label for="destination">destination:</label>
+            <select name="shiplist" id="ship" form="shipform">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    AOS.init();
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</html>
